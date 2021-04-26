@@ -1,0 +1,28 @@
+.whole-container{
+	width: 100%;
+}
+.header-top-overflow{
+	background-color: #7dd9e8;
+	width: 100%;
+}
+.header-top-container{
+	position: relative;
+	padding: 16px 0px 15px 0px;
+}
+.logo-container{
+	float: left;
+	width: 223px;
+	height:49px;
+}
+.search-container{
+	width: 35.8208955224%;
+	float: left;
+	padding: 20px 15px 9px 24px;
+}
+.search-button{
+	background: url(../img/search-button.png) no-repeat;
+	width: 53px; 
+	margin-left: 4px;
+	float: left;
+}
+ 
