@@ -54,17 +54,25 @@ a{
 	float: left;;
 }
 .header-top-right{
-	width:22%;
+	width:20%;
 	float:right;
 	text-align: right;
-	padding 8px 0px;
+	padding: 8px 0px;
 	font-weight:bold;
+	margin:0px;
 }
 
-.user-nav{
-	float:right;
-	line-height:15px;
+.user-nav-wrapper{
+float:left;
+}
+.user-nav li{
+	float:left;
+	text-align: right;
+ 	font-size:13px;
+	 font-family: Arial;
+	padding:10 7px;
 	margin-right: 3px;
+	font-weight:bold;
 }
 .user-nav ul{
 	list-style: none;
