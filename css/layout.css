@@ -1,3 +1,16 @@
+
+div{
+	display: block;
+}
+a{
+	text-decoration: none;
+	color: none;
+}
+html{
+	font-size: 16px;
+	
+}
+
 .whole-container{
 	width:100%;
 }
@@ -22,36 +35,43 @@
 	 
 	float:left;
 	width:40%;
-	padding: 20px 25px 10px 25px;
+	height:23px;
+	box-sizing: border-box;
+	padding: 20px 25px 0px 25px;
 
 }
 
 .logo{
 	float:left;
-	width: 223px;
-	height 50px;
+	width: 30%;
+	height: 50px;
 } 
+
 form{
 	display: block;
 }
 
 search-input{
-	width:240px;
+	display: inline-block;
+	width:90%;
 	background-color:transparent;
-	border: 0 solid;
+	border: none;
 	padding:0px 0px;
 	font-size:11px;
+	box-sizing: border-box;
 }
 
-a{
-	text-decoration: none;
-	color: none;
+input[type=text]:focus
+{
+	border: none;
+	
 }
+
+
 
 .search-button{
-	width 53px;
-	margin-left:4px;
-	float: left;;
+		float: right;
+		vertical-align: top;
 }
 .header-top-right{
 	width:20%;
@@ -119,9 +139,7 @@ ul{
 	padding: 0px 12px;
 }
 	
-.header-bottom-left {
 
-}
 
 .header-bottom-right li{
 	font-size: 11px;
@@ -220,9 +238,19 @@ font-family: arial;
 }
 	
 .body-categories li{
+	width:45%;
 	float:left;
 	font-size:12px;
-	padding: 10px 10px;
+	padding: 10px 0px;
+}
+ 
+.header-bottom-left li:hover{
+	background-color: #2fc1da;
+
+}
+
+.body-categories li:hover{
+	background-color: #2fc1da;
 }
 
 .body-container-right{
@@ -326,5 +354,6 @@ font-family: arial;
 	font-size: 10px;
 	vertical-align: center;
 	padding-top:10px;
-
 }
+
+
