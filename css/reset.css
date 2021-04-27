@@ -33,3 +33,12 @@ a{
 	margin:0 auto;
 	padding: 0em 2em;
 }
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
