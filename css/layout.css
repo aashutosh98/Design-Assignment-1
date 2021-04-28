@@ -1,359 +1,165 @@
-
-div{
-	display: block;
-}
-a{
-	text-decoration: none;
-	color: none;
-}
-html{
-	font-size: 16px;
-	
+.container-wrapper {
+  min-width: 1002px;
 }
 
-.whole-container{
-	width:100%;
+.header-wrapper {
+  width: 100%;
 }
 
-.container{
-	max-width: 59em;
-	margin: 0 auto;	
-	padding: 0em 2em;
-
+.header-top-wrapper {
+  width: 100%;
+  background: #7dd9e8;
 }
 
-.header-top-container{
-	background-color: #7DD9E8;
-	width:100%;
-	height: 70px;
-	position: relative;
-	padding:16px 0px 15px 0px;
+.header-top {
+  width: 938px;
+  padding: 0px 32px;
+  margin: 0px auto;
+  overflow: auto;
 }
 
-
-.search-container{
-	 
-	float:left;
-	width:40%;
-	height:23px;
-	box-sizing: border-box;
-	padding: 20px 25px 0px 25px;
-
+.header-top-left {
+  float: left;
 }
 
-.logo{
-	float:left;
-	width: 30%;
-	height: 50px;
-} 
-
-form{
-	display: block;
+.header-top-left-2 {
+  float: left;
+  margin-left: 36px;
 }
 
-search-input{
-	display: inline-block;
-	width:90%;
-	background-color:transparent;
-	border: none;
-	padding:0px 0px;
-	font-size:11px;
-	box-sizing: border-box;
+.header-top-right {
+  float: right;
 }
 
-input[type=text]:focus
-{
-	border: none;
-	
+.navbar-wrapper {
 }
 
-
-
-.search-button{
-		float: right;
-		vertical-align: top;
-}
-.header-top-right{
-	width:20%;
-	float:right;
-	text-align: right;
-	padding: 8px 0px;
-	font-weight:bold;
-	margin:0px;
+.header-bottom-wrapper {
+  width: 100%;
+  background: #f5f5f5;
 }
 
-.user-nav-wrapper{
-float:left;
-}
-.user-nav li{
-	float:left;
-	text-align: right;
- 	font-size:13px;
-	 font-family: Arial;
-	padding:10 7px;
-	margin-right: 3px;
-	font-weight:bold;
-}
-.user-nav ul{
-	list-style: none;
-	margin:0px;
-	padding: 0px;
-	overflow:hidden;
+.header-bottom {
+  width: 938px;
+  padding: 0 32px;
+  margin: 0px auto;
+  overflow: auto;
 }
 
-
-ul{
-	text-align: center;
-
+.header-bottom-left {
+  width: auto;
+  float: left;
 }
 
-.header-bottom-container{
-	background-color:#F5F5F5;
-	height: 40px;
-	width: 100%;
-	padding: 0%;
-
+.header-bottom-right {
+  float: right;
 }
 
-.header-bottom-left li{
-	list-style: none;
-	float: left;
-	display:block;
-	text-align: center;
-	font-size: 13px;
-	padding:0px 12px;
+.body-wrapper {
+  width: 938px;
+  padding: 32px;
+  margin: 0 auto;
+  overflow: auto;
 }
 
-.header-bottom-contents{
-	padding:12px 0px;
-}
-.header-bottom-left{
-	float:left;
+.body-left {
+  float: left;
+  width: 196px;
 }
 
-.header-bottom-right{
-	float:right;
+.recent-searches {
+  width: 100%;
 }
 
-.header-bottom-right li{
-	padding: 0px 12px;
-}
-	
-
-
-.header-bottom-right li{
-	font-size: 11px;
-	float: left;
+.recent-searches-wrapper {
+  width: 100%;
 }
 
-.body-container{
-	padding:20px 0px 0px 0px;
+.body-right {
+  float: right;
+  width: 720px;
 }
 
-.body-container-left{
-	float:left;
-	width:20%;
-	background-color: #f5f5f5;
+.entries-wrapper {
+  width: 520px;
+  float: left;
 }
 
-.body-container-left *{
-	text-align: left;
-	font-size: 12px;
-	background-color: #f5f5f5;
+.all-entries-wrapper {
+  float: left;
+  width: 259px;
+  background-color: #f5f5f5;
+
+  height: 66px;
 }
 
-.list-title{
-
-	width: 100%;
-	height: 40px;
-	vertical-align: center;
-	background-color: #2fc1da;
-	font-size: 16px;
-	line-height: 40px;
-	padding:0px 15px;
-	color:#ffffff;
-	
+.all-entries-left {
+  background-image: url("../images/big-tab-left.png");
+  height: 100%;
+  background-position: top left;
+  background-repeat: no-repeat;
 }
 
-.search-box-list:hover{
-	background-color: white;
+.all-entries-right {
+  background-position: top right;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+.all-entries-text {
 }
 
- ul{
-	list-style-type: none;
+.subscribed-wrapper {
+  float: right;
+  width: 259px;
+  background-color: #f5f5f5;
+  height: 65px;
 }
 
-.search-box-list li{
-background-color: #f5f5f5;
-width: 100%;
-padding:15px 15px;
-font-family: arial;
+.subscribed-left {
+  height: 100%;
+  background-position: top left;
+  background-repeat: no-repeat;
 }
 
-.search-box-list img{
-	float:right;
-	vertical-align: center;
-	
+.subscribed-right {
+  background-position: top right;
+  background-image: url("../images/big-tab-right.png");
+  height: 100%;
+  background-repeat: no-repeat;
 }
-.main-heading{
-	font-size: 30px;
-	padding:10px 10px;
-	
+.subscribed-text {
 }
 
-
-.body-container-mid{
-	float:left;
-	width: 50%;
-	height:auto;
-	padding:0px 45px; 
- 
+.video-tutorial-wrapper {
+  width: 176px;
+  float: right;
 }
 
-.body-tab-container{
-	width: 100%;
-	height:45px;
-	 	background-color: #f5f5f5;
-	padding: 10px 10px;
- 
-
+.video-tutorial-header {
+  width: 100%;
 }
-.sub-headings{
-	width: 45%;
-	float:left;
-	padding:0px 0px;
-	text-align: center;
+.video-tutorial-body {
+  width: 100%;
 }
 
-
-.sub-headings-1{
-	width: 45%;
-	float:right;
-	padding: 0px 0px;
-	text-align: center;
+.footer-wrapper {
+  width: 100%;
+  background: #727272;
+  font-size: 12px;
 }
 
-.sub-heading-1{
-	text-align: center;
-}
-	
-.body-categories li{
-	width:45%;
-	float:left;
-	font-size:12px;
-	padding: 10px 0px;
-}
- 
-.header-bottom-left li:hover{
-	background-color: #2fc1da;
-
+.footer {
+  width: 938px;
+  padding: 20px 32px;
+  margin: 0 auto;
+  overflow: auto;
 }
 
-.body-categories li:hover{
-	background-color: #2fc1da;
+.footer-left {
+  float: left;
 }
 
-.body-container-right{
-	float: right;
-	width:20%;
-	text-align: left;
-
+.footer-right {
+  float: right;
+  color: #fff;
 }
-.body-main-title{
-	font-size: 25px;
-	width: 100%;
-	margin-bottom:10px;
-}
-  .search-box-list li{
-	font-size: 12px;
-	text-align: left;
-}
-
-.user-image{
-	float: left;
-}
-
-.user-content{
-	width: 100%;
-}
-
-.news{
-	display: block;
-	height:80px;
-	padding:10px;;
-}
-.user-news {
-	height: 70px;
-	width: 100%;
-	overflow: auto;
-}
-
-.user-info{
-	float: left;
-	padding-left: 10px;
-
-}
-
-
-.blue{
-	color:#309db2;
-	font-size: 12px;
-	font-family: arial;
-	font-weight: bold;;
-}
-
-.red{
-	color:red;
-	font-size: 12px;
-	font-family: arial;
-	font-weight: bold;;
-
-}
-.green{
-	color:green;
-	font-size: 12px;
-	font-family: arial;
-}
-
-.user-info ul{
-	font-size: 10x;
-	text-align: left;
-}
-.user-info *{
-	font-size: 10x;
-	text-align: left;
-}
-
-.footer-container{
-	display:block;
-	bottom:0;
-	left:0;
-	width:100%;
-	height:30px;
-	position: fixed;
-	background-color: #727272;;
- 
-}
-
-.footer-container *{
-	color:white;
-}
-
-.footer-container-left li{
-	padding:10px 15px;
-	font-size: 10px;
- 	font-family: arial;
-	float:left;
-	text-align: left;
-	vertical-align: center;
-
-}
-
-.footer-container-right{
-	float: right;
-	font-size: 10px;
-	vertical-align: center;
-	padding-top:10px;
-}
-
-
